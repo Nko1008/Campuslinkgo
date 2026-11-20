@@ -76,6 +76,9 @@ CampusLink/
 ├── style.css
 ├── main.go
 └── go.mod
+├── vie-alentour.html
+├── meteo.html
+├── restaurants.html
 ```
 
 ## Organisation
