@@ -1038,3 +1038,89 @@ footer {
         align-items: flex-start;
     }
 }
+
+/* =========================================================
+   PAGE VIE ALENTOUR
+   ========================================================= */
+
+.vie-alentour {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 30px 20px;
+}
+
+.vie-alentour > h2 {
+    margin-bottom: 20px;
+}
+
+.vie-alentour > p {
+    color: var(--texte-doux);
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+
+.vie-alentour .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.carte-vie {
+    padding: 35px 25px;
+    border: 1px solid var(--bordure);
+    border-radius: 15px;
+    background: var(--fond-carte);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.carte-vie:hover {
+    transform: translateY(-8px);
+}
+
+.icone-vie {
+    font-size: 45px;
+}
+
+.carte-vie h3 {
+    margin: 0;
+}
+
+.carte-vie p {
+    color: var(--texte-doux);
+    line-height: 1.8;
+    flex-grow: 1;
+}
+
+.carte-vie a {
+    margin-top: 10px;
+}
+
+.transport {
+    border-top: 3px solid var(--neon-bleu);
+}
+
+.transport:hover {
+    box-shadow: 0 0 20px #00e5ff35;
+}
+
+.meteo {
+    border-top: 3px solid var(--neon-rose);
+}
+
+.meteo:hover {
+    box-shadow: 0 0 20px #ff2bd635;
+}
+
+.restaurants {
+    border-top: 3px solid var(--neon-vert);
+}
+
+.restaurants:hover {
+    box-shadow: 0 0 20px #39ff8835;
+}
+
+
